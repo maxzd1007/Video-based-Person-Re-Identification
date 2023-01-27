@@ -11,4 +11,5 @@ I would use the following steps:
 4. Create a PCB model by using the pre-trained models and fine-tune it on the dataset
 5. Test the model on the test set and evaluate the performance using metrics such as rank-1 accuracy, mAP and CMC
 6. Implement the PCB model in real-time by using the webcam or a video file as input, detect and cropping the person bounding box, and output the predicted person ID in real-time.
+
 Compared to traditional trackers like FairMOT or DeepSORT, person Re-ID algorithms like PCB are specifically designed for person re-identification and are typically more robust to occlusions and viewpoint changes. However, traditional trackers like FairMOT and DeepSORT are more appropriate for multi-camera tracking scenarios, where the goal is to track the same person across multiple cameras, whereas Re-ID algorithms are designed to match a person across different camera views.
